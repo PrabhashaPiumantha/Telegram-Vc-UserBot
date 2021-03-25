@@ -8,7 +8,7 @@ A Telegram UserBot to Play Audio in Voice Chats.
 
 ## Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/prabhasha-p/Telegram-Vc-UserBot/tree/dev)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/prabhasha-p/Telegram-Vc-UserBot)
 
 - Session string can be exported by using Pyrogram
   ```
