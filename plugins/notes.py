@@ -1,4 +1,4 @@
-"""Pyrogram Smart Plugin for notes in t.me/VCSets
+"""Pyrogram Smart Plugin for notes in t.me/HiTechRocket
 
 Required chat permission:
 - Delete messages
@@ -19,11 +19,11 @@ notes['notes'] = f"""{emoji.SPIRAL_NOTEPAD} **Notes** (/notes):
 `#musicbot` __tgmusicbot__"""
 
 url['readme_heroku'] = (
-    "https://github.com/callsmusic/tgvc-userbot#deploy-to-heroku"
+    "https://github.com/prabhasha-p/Telegram-Vc-UserBot#deploy-to-heroku"
 )
 url['heroku'] = (
     "https://heroku.com/deploy?template="
-    "https://github.com/callsmusic/tgvc-userbot/tree/dev"
+    "https://github.com/prabhasha-p/Telegram-Vc-UserBot/tree/dev"
 )
 url['replit'] = "https://repl.it/@Leorio/stringsessiongen#main.py"
 notes['heroku'] = f"""{emoji.LABEL} **Heroku** (/notes #heroku):
@@ -58,7 +58,7 @@ notes['repo'] = f"""{emoji.LABEL} **Repository** (/notes #repo):
 
 url['tmbh'] = (
     "https://heroku.com/deploy?template="
-    "https://github.com/callsmusic/tgmusicbot"
+    "https://github.com/prabhasha-p/Telegram-Vc-UserBot"
 )
 notes['musicbot'] = (
     f"""{emoji.ROBOT} **Telegram Music Bot** (/notes #musicbot):
