@@ -2,15 +2,13 @@
 
 A Telegram UserBot to Play Audio in Voice Chats.
 
-This is also the source code of the userbot which is being used for playing DJ/Live Sets music in [VC DJ/Live Sets](https://t.me/VCSets) group.
+## Support Group:
+<a href="https://t.me/HiTechRocket"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
 
-Made with [tgcalls](https://github.com/MarshalX/tgcalls) and [Pyrogram Smart Plugin](https://docs.pyrogram.org/topics/smart-plugins)
-
-It's recommended to use [tgmusicbot](https://github.com/callsmusic/tgmusicbot) along with this userbot.
 
 ## Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/callsmusic/tgvc-userbot/tree/dev)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/prabhasha-p/Telegram-Vc-UserBot/tree/dev)
 
 - Session string can be exported by using Pyrogram
   ```
@@ -164,3 +162,9 @@ print('\n>>> USERBOT STOPPED')
 # License
 
 AGPL-3.0-or-later
+
+# Credits
+
+[tgcalls](https://github.com/MarshalX/tgcalls)
+[Pyrogram Smart Plugin](https://docs.pyrogram.org/topics/smart-plugins)
+[tgmusicbot](https://github.com/callsmusic/tgmusicbot)
