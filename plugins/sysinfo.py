@@ -1,4 +1,4 @@
-"""!sysinfo use psutil to get system information"""
+"""!ssysinfo use psutil to get system information"""
 from datetime import datetime
 import psutil
 from psutil._common import bytes2human
