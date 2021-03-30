@@ -1,4 +1,4 @@
-"""!ping reply with pong
+"""!pping reply with pong
 !uptime check uptime
 """
 from time import time
@@ -43,7 +43,7 @@ async def _human_time_duration(seconds):
                    & self_or_contact_filter
                    & ~filters.edited
                    & ~filters.via_bot
-                   & filters.regex("^!ping$"))
+                   & filters.regex("^!pping$"))
 async def ping_pong(_, m: Message):
     """reply ping with pong and delete both messages"""
     start = time()
@@ -58,7 +58,7 @@ async def ping_pong(_, m: Message):
                    & self_or_contact_filter
                    & ~filters.edited
                    & ~filters.via_bot
-                   & filters.regex("^!uptime$"))
+                   & filters.regex("^!uuptime$"))
 async def get_uptime(_, m: Message):
     """/uptime Reply with readable uptime and ISO 8601 start time"""
     current_time = datetime.utcnow()
