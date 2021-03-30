@@ -83,7 +83,7 @@ async def generate_sysinfo(workdir):
                    & self_or_contact_filter
                    & ~filters.edited
                    & ~filters.via_bot
-                   & filters.regex("^!sysinfo$"))
+                   & filters.regex("^!ssysinfo$"))
 async def get_sysinfo(client, m):
     response = "**System Information**:\n"
     m_reply = await m.reply_text(f"{response}`...`")
